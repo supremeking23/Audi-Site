@@ -1,0 +1,144 @@
+body{
+    color: #fff;
+    text-align: center;
+    
+}
+
+p{
+    color:#8f8f8f;
+}
+
+.colored-background{
+    background: #222831;
+    /* 
+    
+    FOR Edge style
+    
+    background-image: linear-gradient(45deg, #6303B1, #ff0099);
+    transform: skewY(-11deg); */
+    /* .diagonal-box {
+	background-image: linear-gradient(45deg, #654ea3, #eaafc8);
+	transform: skewY(-11deg);
+}
+
+.content {
+	max-width: 50em;
+	margin: 0 auto;
+	transform: skewY(11deg);
+} */
+}
+
+.white-background{
+    background: #fff;
+    color: #000;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Title */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: 'Source Serif Pro';
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Source Serif Pro';
+}
+
+/* Nav */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Source Serif Pro';
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    /* font-family: 'Montserrat'; */
+}
+
+
+/* features */
+
+.feature-box{
+    padding: 5%;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icon {
+    color: #222831;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #000;
+}
+
+
+/* Testimonials */
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+/* Pricing */
+
+#feature-cars{
+    padding:100px;
+    /* text-align: center; */
+}
+
+.feature-cars-column{
+    padding: 3% 2%
+}
+
+.feature-car-img{
+    width: 50%;
+}
+
+
+/* cta */
+
+
+/* Footer */
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+@media(max-width:1028px){
+    .title-image{
+       width: 100%;
+    }
+
+    .cta-video{
+        width: 100%;
+    }
+}
+
+
+/* testing */
